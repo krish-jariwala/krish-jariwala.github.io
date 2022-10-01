@@ -16,8 +16,8 @@
 
        <h3>Welcome to my webpage!</h3>
        <style>
-        h1 {
-          text-shadow: 2px 2px #988181;
+        h1 { background-color: gray; color: white;
+          margin: 10px; padding: 10px;
         }
         </style>
         <h1>Here's a Heading</h1>
@@ -26,7 +26,41 @@
         <h3>Hello</h3> 
         <p style="color:red;">This is a paragraph.</p>
         <p>Here's another webpage as text in a paragraph</p>
+
+        <head>
+          <style>
+          .first {background-color: rgb(223, 180, 180);
+          margin: 10px; padding: 10px; border-radius: 5px;}
+          #A1 {background-color:rgb(140, 140, 163); color:rgb(124, 105, 41)}
+          [select] {background-color:rgb(98, 109, 104); color:white}
+          </style>
+         </head>
+         <body>
+          <div class="news" id="A1">>Random words blah blah blah</div>
+          <div class="first">Random words blah blah blah</div>
+          <div class="first" select = "extra">Random words blah blah blah blah</div>
+          <div class="first">Random words blah blah blah</div>
+         </body>
         
+         <head>
+          <style>
+          .first > div {background-color: lightblue;
+          margin: 10px; padding: 10px; border-radius: 5px;}
+          .first [lang="en"] {background-color:rgb(98, 109, 104); color:white}
+          </style>
+         </head>
+         <body>
+          <div class="first">
+            <div>Lorem ipsum dolor,
+              <span select="en">one two three</span>
+              sit amet consectetur...
+            </div>
+          <div>Lorem ipsum dolor, sit amet consectetur...</div>
+          </div>
+         </body>
+
+         
+      
 
         
 

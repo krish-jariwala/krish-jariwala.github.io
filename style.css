@@ -1,0 +1,23 @@
+body
+/* declaration block - enclosed in curly braces */
+{ background-color: #acf }
+div {
+ /* each declaration consists of property : value */
+ /* declarations in the same block are separated by ; */
+ background-color: rgb(226, 216, 158);
+ color: white;
+ margin: 10px;
+ padding: 10px
+}
+
+button {
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    }
+    button:hover {
+    background-color:slategray;
+    color:white;
+    cursor: pointer;
+    }
+  
