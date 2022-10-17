@@ -3,182 +3,62 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
      
         <body>
-          <div style="background-color:powderblue;">This is a heading</h1>
+          <div style="background-color:rgb(22, 24, 24);">Welcome to my webpage</h1>
         </div>
         <head>
-          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="style.css"> 
+          <link rel="icon" type="image/png" sizes="64x64"
+          href="64x64.png">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
 
-        <body style="
-        background-image: url('BackIm.jpg');
-        
-        ">
-
-       <h3>Welcome to my webpage!</h3>
-       <style>
-        h1 { background-color: gray; color: white;
-          margin: 10px; padding: 10px;
-        }
-        </style>
-        <h1>Here's a Heading</h1>
-        <h2>And here is a Subheading</h2>
-        <p>Here's <b>bold</b> and <i>italic</i> text</p>
-        <h3>Hello</h3> 
-        <p style="color:red;">This is a paragraph.</p>
-        <p>Here's another webpage as text in a paragraph</p>
-
-        <head>
-          <style>
-          .first {background-color: rgb(223, 180, 180);
-          margin: 10px; padding: 10px; border-radius: 5px;}
-          #A1 {background-color:rgb(140, 140, 163); color:rgb(124, 105, 41)}
-          [select] {background-color:rgb(98, 109, 104); color:white}
+        <style>
+          .item1 { grid-area: header; }
+          .item2 { grid-area: menu; }
+          .item3 { grid-area: main; }
+          .item4 { grid-area: right; }
+          .item5 { grid-area: footer; }
+          
+          .grid-container {
+            display: grid;
+            grid-template-areas:
+              'header header header header header header'
+              'menu main main main right right'
+              'menu footer footer footer footer footer';
+            gap: 10px;
+            background-color: #365269;
+            padding: 10px;
+          }
+          
+          .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+          }
           </style>
-         </head>
-         <body>
-          <div class="news" id="A1">>Random words blah blah blah</div>
-          <div class="first">Random words blah blah blah</div>
-          <div class="first" select = "extra">Random words blah blah blah blah</div>
-          <div class="first">Random words blah blah blah</div>
-         </body>
-        
-         <head>
-          <style>
-          .first > div {background-color: lightblue;
-          margin: 10px; padding: 10px; border-radius: 5px;}
-          .first [lang="en"] {background-color:rgb(98, 109, 104); color:white}
-          </style>
-         </head>
-         <body>
-          <div class="first">
-            <div>Lorem ipsum dolor,
-              <span select="en">one two three</span>
-              sit amet consectetur...
-            </div>
-          <div>Lorem ipsum dolor, sit amet consectetur...</div>
+          </head>
+          <body>
+          
+          
+          
+          <div class="grid-container">
+            <div class="item1">Hey,</div>
+            <div class="item2">how</div>
+            <div class="item3">is</div>  
+            <div class="item4">it</div>
+            <div class="item5">going?</div>
           </div>
-         </body>
+          
+          </body>
 
-         
-      
-
-        
-
-        <a href="https://caldwell.blackboard.com/">
-          <span style="border:solid 3px rgb(67, 152, 250);
-          border-radius: 5px;">
-          Go to check Blackboard...
-          </span>
-          </a>
-       
-        <div style="
-        color:grey;
-        padding: 10px;
-        font: bold 14pt Tahoma;
-        ">
-        The quick brown fox jumped over the lazy dog.
+          
+        <div id="content">
+        <div class="box" style="background-color:rgba(255, 255, 255, 0.8);">This</div>
+        <div class="box" style="background-color:rgba(255, 255, 255, 0.8);">is</div>
+        <div class="box" style="background-color:rgba(255, 255, 255, 0.8);">a</div>
+        <div class="box1" style="background-color:rgba(84, 84, 84, 0.8);">Flex</div>
+        <div class="box1" style="background-color:rgba(84, 84, 84, 0.8);">Grow</div>
+        <div class="box" style="background-color:rgba(255, 255, 255, 0.8);">!</div>
         </div>
         
-        <div class="second-page">
-          <a href="page2.html" class="thumbnail">
-              <button type="button" href="btn btn-primary">Second Page</button>
-          </a>
-      </div>
-
-        
-        
-       <br><br>
-        <p>Here's an image</p>
-        <img src="Abstract.jpg" width="300">
-        </body>
-    </head>
-
-    <!--
-    <h1>Assignment 3</h1>
-    <style>
-        * {
-          box-sizing: border-box;
-        }
-        
- 
-        .column {
-          float: left;
-          width: 33%;
-          padding: 8px;
-          height: 200px; 
-        }
-
-       
-        </style>
-        </head>
-        <body>
-    <body>
-        <div class="row">
-            <div class="column">
-              <h2>First Header</h2>
-              <p>Not sure</p>
-              <p>Here</p>
-              <p>Last one</p>
-            </div>
-            <div class="column">
-              <h2>Second Header</h2>
-              <p>what to </p>
-              <p>either</p>
-              <p>to prove there is</p>
-            </div>
-            <div class="column">
-              <h2>Third Header</h2>
-              <p>write here..</p>
-              <p>honestly..</p>
-              <p>three rows!</p>
-            </div>
-          </div>
-    </body>
--->
-<!--
-</body>
-  <body style="background-color: darkslategray; color: white"></body>
-<table>
-  <thead>
-    <tr><th>This</th>
-      <th>Is.The</th>
-      <th>Header</th></tr>
-  </thead>
-    <tbody>
-      <div class="row">
-      <tr><td>Random</td>
-          <td>Random</td>
-          <td>Random</td></tr>
-    </div>
-    <div class="row">
-      <tr><td>Random</td>
-          <td>Random</td>
-          <td>Random</td></tr>
-    </div>
-    <div class="row">
-      <tr><td>Random</td>
-          <td>Random</td>
-          <td>
-            <table >
-            <tr>
-            <td colspan=2> 2/4 </td>
-            <td> 50 </td>
-            </tr>
-            <tr>
-            <td> S78 </td>
-            <td> E21 </td>
-            <td> F98 </td>
-
-          <tr>
-          <td> abc </td>
-          <td> efg </td>
-          <td> hij </td>
-          </tr>
-            </table></td></tr>
-    </div>
-     
-        
-       </body></html></td></tr>
-  </tbody>
-  </table>
--->
