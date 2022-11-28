@@ -1,0 +1,20 @@
+* {
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    min-height: 3em;
+}
+
+.root{
+    height: 100%;
+    width: 400px;
+}
+
+items > div {
+    border: solid 1px gray;
+}
+
+.done { 
+    background-color: gray;
+}
